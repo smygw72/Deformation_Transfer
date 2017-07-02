@@ -15,7 +15,7 @@ Freeglut, Eigen, libigl
   - source(deformed) → kawai_a.obj
   - target(undeformed) → mizo_N.obj
 - Output
-  - target deformed → mizo_a.obj　(mizo_N.objのコピーなので実装部分で上書きする)
+  - target(deformed) → mizo_a.obj
 
 ## Reference
 ["Deformation Transfer for Triangle Meshes",Robert W. Sumner Jovan Popovic] (https://pdfs.semanticscholar.org/6a5d/cfbd6498a36976a8ea22ed21bb21601b7999.pdf)
