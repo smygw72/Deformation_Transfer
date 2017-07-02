@@ -1,15 +1,23 @@
 # Deformation Transfer
 
-論文 "Deformation Transfer for Triangle Meshes" [Robert Sumner et al. 2004] を実装した.　
-http://people.csail.mit.edu/sumner/research/deftransfer/Sumner2004DTF.pdf
+The deformation of the mesh in two source images (undeformed image and deformed image) is transferred to the target image, and an image after deformation of the target is generated.
 
-ざっくりと内容をまとめると,2枚のソース画像(undeformedな画像とdeformedな画像)におけるメッシュの変形をターゲット画像に適応し,ターゲットの変形後の画像を生成すればよい.
+## Enviroment
+C++, Visual Studio 2015, OpenFrameworks0.9.3
 
-論文内の式変形では式変形が難しい箇所があるので Sumnerの博論3章を参照した.
-http://people.csail.mit.edu/sumner/thesis/Sumner2005MMU.pdf
+### Library
+Freeglut, Eigen, libigl
 
-使用したdataは
-- source undeformed　→　kawai_N.obj
-- source deformed → kawai_a.obj
-- target undeformed → mizo_N.obj
-- target deformed → mizo_a.obj　　(mizo_N.objのコピーなので実装部分で上書きする)
+
+## Data
+- Input
+  - source(undeformed)　→　kawai_N.obj
+  - source(deformed) → kawai_a.obj
+  - target(undeformed) → mizo_N.obj
+- Output
+  - target deformed → mizo_a.obj　(mizo_N.objのコピーなので実装部分で上書きする)
+
+## Reference
+["Deformation Transfer for Triangle Meshes",Robert W. Sumner Jovan Popovic] (https://pdfs.semanticscholar.org/6a5d/cfbd6498a36976a8ea22ed21bb21601b7999.pdf)
+
+["Mesh Modification Using Deformation Gradients", Robert Walker Sumner](http://people.csail.mit.edu/sumner/thesis/Sumner2005MMU.pdf)
