@@ -13,12 +13,11 @@ Freeglut, Eigen, libigl
 
 ## Data
 - Input
-  - source(undeformed)　→　kawai_N.obj
-  - source(deformed) → kawai_a.obj
-  - target(undeformed) → mizo_N.obj
+  - source(undeformed)　→　kawai_N.obj (top left)
+  - source(deformed) → kawai_a.obj (top right)
+  - target(undeformed) → mizo_N.obj (bottom left)
 - Output
-  - target(deformed) → mizo_a.obj (it is a copy of mizo_N.obj, and it is overwritten by the output result)
-
+  - target(deformed) → mizo_a.obj (bottom right)
 ## References
 ["Deformation Transfer for Triangle Meshes",Robert W. Sumner Jovan Popovic](https://pdfs.semanticscholar.org/6a5d/cfbd6498a36976a8ea22ed21bb21601b7999.pdf)
 
