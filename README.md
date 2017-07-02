@@ -2,6 +2,8 @@
 
 The deformation of the mesh in two source images (undeformed image and deformed image) is transferred to the target image, and an image after deformation of the target is generated.
 
+![samune](https://user-images.githubusercontent.com/18544494/27771721-abcf7f14-5f8f-11e7-9525-8d937635027f.JPG)
+
 ## Enviroment
 C++, Visual Studio 2015, OpenFrameworks0.9.3
 
