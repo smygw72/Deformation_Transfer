@@ -18,6 +18,6 @@ Freeglut, Eigen, libigl
   - target(deformed) → mizo_a.obj
 
 ## Reference
-["Deformation Transfer for Triangle Meshes",Robert W. Sumner Jovan Popovic] (https://pdfs.semanticscholar.org/6a5d/cfbd6498a36976a8ea22ed21bb21601b7999.pdf)
+["Deformation Transfer for Triangle Meshes",Robert W. Sumner Jovan Popovic](https://pdfs.semanticscholar.org/6a5d/cfbd6498a36976a8ea22ed21bb21601b7999.pdf)
 
 ["Mesh Modification Using Deformation Gradients", Robert Walker Sumner](http://people.csail.mit.edu/sumner/thesis/Sumner2005MMU.pdf)
